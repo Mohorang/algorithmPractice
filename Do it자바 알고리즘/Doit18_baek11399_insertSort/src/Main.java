@@ -4,9 +4,14 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Scanner;
 
+//입력예제
+//5
+//3 1 4 3 2
 public class Main {
     public static void main(String[] args) throws IOException {
         Scanner sc= new Scanner(System.in);
+
+
         int n = sc.nextInt();
         int[] a = new int[n];
         for (int i = 0; i < n; i++) {
